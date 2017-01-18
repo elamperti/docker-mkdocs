@@ -32,4 +32,5 @@ You may find specially useful the `docs_dir` and `site_dir` settings, as they sp
 These are the current extensions and themes built in:
   * [PyMdown](https://facelessuser.github.io/pymdown-extensions/)
   * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+  * Pygments (so you can use `codehilite` extension)
 

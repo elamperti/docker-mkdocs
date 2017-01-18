@@ -5,7 +5,7 @@ VOLUME  /doc
 WORKDIR /doc
 
 RUN apk add --no-cache python py-pip py-setuptools && \
-    pip install --no-cache-dir mkdocs pymdown-extensions mkdocs-material && \
+    pip install --no-cache-dir mkdocs pymdown-extensions mkdocs-material pygments && \ 
     apk del py-pip
 
 EXPOSE 8000
