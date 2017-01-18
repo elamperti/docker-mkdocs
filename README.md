@@ -29,3 +29,6 @@ docker run -it -v $(pwd):/doc elamperti/docker-mkdocs build
 MkDocs uses a YML configuration file (`mkdocs.yml`), for more information on that read [their documentation](http://www.mkdocs.org/user-guide/configuration/).
 You may find specially useful the `docs_dir` and `site_dir` settings, as they specify from where docs are read and to which directory the site is built.
 
+These are the current extensions and themes built in:
+  * [PyMdown](https://facelessuser.github.io/pymdown-extensions/)
+
