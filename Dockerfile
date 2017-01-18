@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.4
 MAINTAINER Enrico Lamperti <elamperti@users.noreply.github.com>
 
 VOLUME  /doc
